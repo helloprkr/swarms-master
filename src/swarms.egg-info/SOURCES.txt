@@ -1,0 +1,15 @@
+setup.py
+src/swarms/__init__.py
+src/swarms/agent.py
+src/swarms/models.py
+src/swarms.egg-info/PKG-INFO
+src/swarms.egg-info/SOURCES.txt
+src/swarms.egg-info/dependency_links.txt
+src/swarms.egg-info/requires.txt
+src/swarms.egg-info/top_level.txt
+src/swarms/models/__init__.py
+src/swarms/models/openai_chat.py
+tests/test_agent.py
+tests/test_basic.py
+tests/test_environment.py
+tests/test_setup_swarms.py

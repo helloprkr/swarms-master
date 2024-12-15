@@ -1,0 +1,27 @@
+{
+    "agents": {
+      "default": {
+        "model": "anthropic/claude-3-sonnet",
+        "systemPrompt": "You are an intelligent AI programming assistant. You help answer questions and write code following best practices. You format all code responses in markdown and specify language types.",
+        "temperature": 0.5
+      },
+      "swarms": {
+        "model": "anthropic/claude-3-sonnet",
+        "systemPrompt": "You are an expert in the Swarms framework, specializing in agent development and orchestration. You help users build and configure autonomous agents following the framework's best practices.",
+        "temperature": 0.3,
+        "fileTypes": [".py", ".yaml"]
+      },
+      "typescript": {
+        "model": "anthropic/claude-3-sonnet",
+        "systemPrompt": "You are a TypeScript expert focusing on Next.js, React, and modern web development practices. You write clean, efficient code following functional programming patterns.",
+        "temperature": 0.3,
+        "fileTypes": [".ts", ".tsx"]
+      },
+      "documentation": {
+        "model": "anthropic/claude-3-sonnet",
+        "systemPrompt": "You are a technical documentation specialist. You help create and maintain clear, comprehensive documentation in Markdown format.",
+        "temperature": 0.4,
+        "fileTypes": [".md"]
+      }
+    }
+  }
